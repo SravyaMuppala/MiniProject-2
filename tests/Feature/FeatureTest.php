@@ -18,10 +18,5 @@ class FeatureTest extends TestCase
 
         $response->assertStatus(200);
     }
-    public function loginTest()
-    {
-        $response = $this->get('/login');
-
-        $response->assertStatus(200);
-    }
+    
 }
