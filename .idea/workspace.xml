@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53dea92b-1635-4512-ac02-4960fe952468" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/Unit/FeatureTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Unit/LoginTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Unit/AboutTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,21 +77,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Unit/FeatureTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-88">
+            <state relative-caret-position="76">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Unit/LoginTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Unit/ExampleTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
               <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/Unit/LoginTest.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Unit/ExampleTest.php">
+        <entry file="file://$PROJECT_DIR$/tests/Unit/AboutTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-42">
+            <state relative-caret-position="12">
               <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
             </state>
           </provider>
@@ -101,7 +113,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/TestCase.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="78">
               <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
             </state>
           </provider>
@@ -110,15 +122,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Feature/ExampleTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-54">
+            <state relative-caret-position="76">
               <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -168,6 +175,8 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/AboutController.php" />
         <option value="$PROJECT_DIR$/resources/views/about.blade.php" />
         <option value="$PROJECT_DIR$/tests/Unit/FeatureTest.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/LoginTest.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/AboutTest.php" />
       </list>
     </option>
   </component>
@@ -433,7 +442,7 @@
       <updated>1554157285531</updated>
       <workItem from="1554157287533" duration="2717000" />
       <workItem from="1554849305016" duration="10199000" />
-      <workItem from="1554932834277" duration="466000" />
+      <workItem from="1554932834277" duration="1134000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Setup">
       <created>1554158541788</created>
@@ -505,17 +514,30 @@
       <option name="project" value="LOCAL" />
       <updated>1554875274112</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Created FeatureTest to check if the register return a 200 status code.">
+      <created>1554933532539</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1554933532539</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Created LoginTest to check if the register return a 200 status code.">
+      <created>1554933587303</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1554933587303</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13382000" />
+    <option name="totallyTimeSpent" value="14050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="638" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25698325" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25698325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -528,7 +550,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.44400784" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.44400784" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.3280943" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -552,7 +574,9 @@
     <MESSAGE value="Created CarsTableSeeder and generated 50 cars." />
     <MESSAGE value="Created ContactController, route, and view to show a contact form and display it to the main menu of the site." />
     <MESSAGE value="Created AboutController, route, and view to display about on main menu of the site." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created AboutController, route, and view to display about on main menu of the site." />
+    <MESSAGE value="Created FeatureTest to check if the register return a 200 status code." />
+    <MESSAGE value="Created LoginTest to check if the register return a 200 status code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created LoginTest to check if the register return a 200 status code." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Procfile">
@@ -739,36 +763,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/ExampleTest.php">
+    <entry file="file://$PROJECT_DIR$/tests/Unit/FeatureTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
+        <state relative-caret-position="76">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/ExampleTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
           <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/TestCase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="78">
           <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/ExampleTest.php">
+    <entry file="file://$PROJECT_DIR$/tests/Unit/ExampleTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/FeatureTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-88">
+        <state relative-caret-position="76">
           <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Unit/LoginTest.php">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/AboutTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
