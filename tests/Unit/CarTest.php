@@ -25,6 +25,15 @@ class CarTest extends TestCase
         $car->year = '';
         $this->assertTrue($car->save());
     }
+    public function testUpdateCar()
+    {
+        $car = Car::inRandomOrder()->first();
+        $car->make = '';
+        $car->model = '';
+        $car->year = '2000';
+        $car->save();
+        $this->assertTrue($car->update());
+    }
 
 
 }
