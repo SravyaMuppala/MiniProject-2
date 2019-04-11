@@ -60,6 +60,10 @@ class CarTest extends TestCase
         $car = Car::inRandomOrder()->first();
         $this->assertInternalType('string',$car->model);
     }
+    public function testInteger()
+    {
+        $car = Car::inRandomOrder()->first();
+        $this->assertFalse(Is_Int($car->year));
 
-
+    }
 }
