@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53dea92b-1635-4512-ac02-4960fe952468" name="Default Changelist" comment="Created ContactTest to check if contact page returns a 200 status code.">
-      <change afterPath="$PROJECT_DIR$/tests/Unit/UserTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/FeatureTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/FeatureTest.php" afterDir="false" />
+    <list default="true" id="53dea92b-1635-4512-ac02-4960fe952468" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/tests/Unit/UserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/UserTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/tests/Unit/UserTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="239">
-              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
               <folding>
                 <element signature="e#30#49#0#PHP" expanded="true" />
               </folding>
@@ -400,7 +397,7 @@
       <workItem from="1554157287533" duration="2717000" />
       <workItem from="1554849305016" duration="10199000" />
       <workItem from="1554932834277" duration="2127000" />
-      <workItem from="1554935727165" duration="4357000" />
+      <workItem from="1554935727165" duration="4638000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Setup">
       <created>1554158541788</created>
@@ -528,14 +525,29 @@
       <option name="project" value="LOCAL" />
       <updated>1554936176424</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Created unit test to insert user into users table">
+      <created>1554957976737</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1554957976737</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Unit test to update the name of a user in database">
+      <created>1554958076964</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1554958076964</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19400000" />
+    <option name="totallyTimeSpent" value="19681000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="638" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26097366" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -604,7 +616,9 @@
     <MESSAGE value="Created LoginTest to check if the login page returns a 200 status code." />
     <MESSAGE value="Created AboutTest to check if about page returns a 200 status code." />
     <MESSAGE value="Created ContactTest to check if contact page returns a 200 status code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created ContactTest to check if contact page returns a 200 status code." />
+    <MESSAGE value="Created unit test to insert user into users table" />
+    <MESSAGE value="Unit test to update the name of a user in database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unit test to update the name of a user in database" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Procfile">
@@ -881,7 +895,7 @@
     <entry file="file://$PROJECT_DIR$/tests/Unit/UserTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
-          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
             <element signature="e#30#49#0#PHP" expanded="true" />
           </folding>
