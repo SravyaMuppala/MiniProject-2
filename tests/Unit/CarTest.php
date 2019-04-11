@@ -34,6 +34,15 @@ class CarTest extends TestCase
         $car->save();
         $this->assertTrue($car->update());
     }
+    public function testDelete()
+    {
+        $car = Car::inRandomOrder()->first();
+        $car->make = '';
+        $car->model = '';
+        $car->year = '';
+        $car->save();
+        $this->assertTrue($car->delete());
+    }
 
 
 }
