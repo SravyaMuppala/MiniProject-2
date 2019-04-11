@@ -49,6 +49,12 @@ class CarTest extends TestCase
         $car->count='50';
         $this->assertEquals(50, $car->count());
     }
+    public function testEitherCar()
+    {
+        $car = Car::inRandomOrder()->first();
+        $value=$car->make;
+        $this->assertContains($value, ['honda','toyota','ford']);
+    }
 
 
 }
