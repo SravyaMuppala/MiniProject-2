@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53dea92b-1635-4512-ac02-4960fe952468" name="Default Changelist" comment="Unit test to delete a user in the database">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/UserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/UserTest.php" afterDir="false" />
+    <list default="true" id="53dea92b-1635-4512-ac02-4960fe952468" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/Unit/CarTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +64,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Unit/UserTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
@@ -76,6 +74,11 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/Unit/CarTest.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -92,15 +95,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Unit/ExampleTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -343,7 +337,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/Unit" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -397,7 +391,7 @@
       <workItem from="1554849305016" duration="10199000" />
       <workItem from="1554932834277" duration="2127000" />
       <workItem from="1554935727165" duration="5415000" />
-      <workItem from="1555006748657" duration="615000" />
+      <workItem from="1555006748657" duration="904000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Setup">
       <created>1554158541788</created>
@@ -546,11 +540,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554958166648</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="unit test to count the number of records inserted by the database seed.">
+      <created>1555007536440</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1555007536440</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21073000" />
+    <option name="totallyTimeSpent" value="21362000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="638" extended-state="6" />
@@ -625,7 +626,8 @@
     <MESSAGE value="Created unit test to insert user into users table" />
     <MESSAGE value="Unit test to update the name of a user in database" />
     <MESSAGE value="Unit test to delete a user in the database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unit test to delete a user in the database" />
+    <MESSAGE value="unit test to count the number of records inserted by the database seed." />
+    <option name="LAST_COMMIT_MESSAGE" value="unit test to count the number of records inserted by the database seed." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Procfile">
@@ -884,6 +886,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/CarTest.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
