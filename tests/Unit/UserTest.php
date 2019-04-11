@@ -44,6 +44,12 @@ class UserTest extends TestCase
         $user->save();
         $this->assertTrue($user->delete());
     }
+    public function testCountUsersIs50()
+    {
+        $user = User::All();
+        $user->count='50';
+        $this->assertEquals(50, $user->count());
+    }
 
 
 }
