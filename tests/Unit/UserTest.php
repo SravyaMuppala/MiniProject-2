@@ -26,7 +26,15 @@ class UserTest extends TestCase
         $user->password = '';
         $this->assertTrue($user->save());
     }
-   
+    public function testUpdate()
+    {
+        $user = User::inRandomOrder()->first();
+        $user->name = 'Steve Smith';
+        $user->email = '';
+        $user->password = '';
+        $user->save();
+        $this->assertTrue($user->update());
+    }
 
 
 }
