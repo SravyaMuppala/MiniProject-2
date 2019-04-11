@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="53dea92b-1635-4512-ac02-4960fe952468" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_10_035224_create_cars_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_04_10_035224_create_cars_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/CarTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/CarTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/Unit/CarTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="55" column="19" lean-forward="true" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+            <state relative-caret-position="135">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
               <folding>
                 <element signature="e#30#49#0#PHP" expanded="true" />
               </folding>
@@ -93,7 +91,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_10_035224_create_cars_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-16">
+            <state relative-caret-position="-18">
               <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
@@ -401,7 +399,7 @@
       <workItem from="1554849305016" duration="10199000" />
       <workItem from="1554932834277" duration="2127000" />
       <workItem from="1554935727165" duration="5415000" />
-      <workItem from="1555006748657" duration="3245000" />
+      <workItem from="1555006748657" duration="7352000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Setup">
       <created>1554158541788</created>
@@ -585,15 +583,35 @@
       <option name="project" value="LOCAL" />
       <updated>1555009185758</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="unit test to check if a car's make is either ford / honda / toyota.">
+      <created>1555010017079</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1555010017079</updated>
+    </task>
+    <task id="LOCAL-00028" summary="unit tests to check that the model is a string.">
+      <created>1555010184937</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1555010184937</updated>
+    </task>
+    <task id="LOCAL-00029" summary="unit test to check if a car's year is an integer.">
+      <created>1555020286728</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1555020286728</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23703000" />
+    <option name="totallyTimeSpent" value="27810000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="638" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26576218" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -645,9 +663,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Initial Setup" />
-    <MESSAGE value="Authentication generated" />
-    <MESSAGE value="Created UsersTableSeeder database and inserted 50 users." />
     <MESSAGE value="Created new model car and added 3 properties to it: Make, Model, and year" />
     <MESSAGE value="Created CarFactory that sets make field to either ford / honda / toyota" />
     <MESSAGE value="Created CarsTableSeeder and generated 50 cars" />
@@ -670,7 +685,10 @@
     <MESSAGE value="unit test for updating a car year to 2000." />
     <MESSAGE value="unit test to test deleting a car." />
     <MESSAGE value="unit test to count number of car records inserted by the database seed." />
-    <option name="LAST_COMMIT_MESSAGE" value="unit test to count number of car records inserted by the database seed." />
+    <MESSAGE value="unit test to check if a car's make is either ford / honda / toyota." />
+    <MESSAGE value="unit tests to check that the model is a string." />
+    <MESSAGE value="unit test to check if a car's year is an integer." />
+    <option name="LAST_COMMIT_MESSAGE" value="unit test to check if a car's year is an integer." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Procfile">
@@ -925,15 +943,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_10_035224_create_cars_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
+        <state relative-caret-position="-18">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Unit/CarTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="55" column="19" lean-forward="true" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+        <state relative-caret-position="135">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
           <folding>
             <element signature="e#30#49#0#PHP" expanded="true" />
           </folding>
