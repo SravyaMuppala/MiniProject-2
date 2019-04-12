@@ -23,10 +23,4 @@ Route::get('/contact', 'ContactController@contact')->name('contact');
 Route::post('/contact','ContactController@store')->name('contact.store');
 Route::get('/thankyou/{name}','ContactController@thanks')->name('thanks');
 
-Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
